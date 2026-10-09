@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3 Pions - Dakar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="skin-brique">
+<div class="container">
+  <h1>3 PIONS</h1>
+  <p class="sub">Version rue Dakar • 3 cailloux vs 3 capsules</p>
+
+  <div class="modes">
+    <button id="btn-2j" onclick="setMode(false)" class="active">👥 2 Joueurs</button>
+    <button id="btn-ia" onclick="setMode(true)" class="active">🤖 VS IA</button>
+  </div>
+
+  <div class="controls">
+    <button onclick="setSkin('sol', this)">SOL</button>
+    <button onclick="setSkin('papier', this)">CAHIER</button>
+    <button onclick="setSkin('brique', this)" class="active">BRIQUE</button>
+    <button onclick="resetGame()" class="reset">🔄</button>
+  </div>
+
+  <div id="status">JOUEUR 1 - Pose ton caillou (1/3)</div>
+  <div id="board"></div>
+  <div class="legend">
+    <span id="label-j1">🪨 J1: Cailloux (3)</span>
+    <span id="label-j2">🔴 J2: Capsules (3)</span>
+  </div>
+  <p id="phaseInfo">Phase: POSE</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
