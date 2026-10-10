@@ -29,11 +29,4 @@ Lien local: `http://localhost/3points/`
 - IA simple: Gagner > Bloquer > Centre > Coin > Random
 - Responsive, marche sur téléphone
 
-### 🚀 Installation
 
-```bash
-git clone https://github.com/TON_PSEUDO/3pions-dakar.git
-cd 3pions-dakar
-# Si tu as Apache:
-sudo cp -r * ~/Dev/3points/
-# Ouvre http://localhost/3points/
