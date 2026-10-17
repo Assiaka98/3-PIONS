@@ -1,3 +1,13 @@
+# 3 PIONS - by Issiaka TRAORE
+> Création originale - Dakar, Sénégal 🇸🇳
+> https://assiaka98.github.io/3-PIONS/
+> Signature officielle : `IT-3PIONS-2026-ORIGINAL
+---
+
+### Le jeu
+Le 3 PIONS est un jeu de stratégie...
+
+[le reste de ton README actuel en dessous]
 # 3 PIONS - Version Rue Dakar 🪨
 On l'appelle Morpion en France. Nous à Dakar, on l'appelle **3 Points**. On le dessine sur le sol à la craie, sur un bout de brique au charbon, ou sur une feuille de cahier en classe.
 Jeu traditionnel sénégalais 3 cailloux vs 3 capsules, revisité web. Inspiré des parties jouées dans les rues de Dakar.Ce n'est pas le Morpion classique. C'est la **Version 2 - Version Rue**.
@@ -57,6 +67,3 @@ Si tu bloques, tu perds. Il faut réfléchir comme au dame.
 ```bash
 git clone https://github.com/TON_PSEUDO/3pions-dakar.git
 cd 3pions-dakar
-# Si tu as Apache:
-sudo cp -r * ~/Dev/3points/
-# Ouvre http://localhost/3points/

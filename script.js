@@ -1,3 +1,26 @@
+/**
+ * 3 PIONS - Original Game
+ * Author: Issiaka TRAORE (I. TRAORE)
+ * GitHub: assiaka98
+ * Created: 2026, Dakar - SN
+ * License: All rights reserved
+ * Signature: IT-3PIONS-2026-SN-DAKAR
+ */
+console.log("%c 3 PIONS by I. TRAORE - Original Creation ", "background:#000; color:#e6c07a; font-size:16px; padding:10px;");
+console.log("Contact: github.com/assiaka98 - Toute copie sans autorisation sera signalée.");
+
+// Watermark caché anti-copie
+Object.defineProperty(window, '__3PIONS_SIGNATURE__', {
+  value: "IT-3PIONS-2026-SN-DAKAR",
+  writable: false
+});
+
+let secret = "";
+window.addEventListener("keydown", e => {
+  secret += e.key.toUpperCase();
+  if(secret.includes("IT")) alert("🎮 3 PIONS - Création originale de Issiaka TRAORE © 2026");
+});
+
 let board=Array(9).fill(null), turn=1, phase='pose', placed={1:0,2:0}, selected=null, gameOver=false;
 let vsIA=false; // false = 2 joueurs par défaut
 
